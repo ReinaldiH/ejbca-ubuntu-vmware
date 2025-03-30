@@ -12,6 +12,8 @@ To ensure a smooth installation process, follow these steps:
    ```bash
    sudo apt update && sudo apt upgrade -y
    ```
+![EJBCA Installation](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*D3LpYcdE7GbSbb7U8Fy4qQ.png)
+
 2. **Install additional dependencies like curl, ant, ant-optional, psmisc, bc, patch, and unzip**:
    ```bash
    sudo apt install curl ant ant-optional psmisc bc patch unzip
