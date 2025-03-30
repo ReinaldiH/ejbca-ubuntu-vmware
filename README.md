@@ -18,10 +18,14 @@ To ensure a smooth installation process, follow these steps:
    ```bash
    sudo apt install curl ant ant-optional psmisc bc patch unzip
    ```
+![EJBCA Installation](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*3VRpDtWdvB1mOpXf1Kp7OQ.png)
+
 3. **Install OpenJDK version 8 (Make sure it's version 8, not a higher version)**:
    ```bash
    sudo apt install openjdk-8-jdk
    ```
+
+   
 4. **Install MariaDB server and client as the database engine for EJBCA**:
    ```bash
    sudo apt install mariadb-client
