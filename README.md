@@ -85,12 +85,20 @@ Next, download the EJBCA package:
 ```bash
 sudo wget https://sourceforge.net/projects/ejbca/files/ejbca7/ejbca_ce_7_4_3_2.zip
 ```
+
+![Wget EJBCA](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/09e9bf172dc9d700be18e707e1cdca71424aed2c/wget%20ejbca.webp?raw=true)
+
 Rename the package for convenience.
+
+![Rename EJBCA](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/09e9bf172dc9d700be18e707e1cdca71424aed2c/rename%20ejbca.webp?raw=true)
+
 
 Then, edit the EJBCA setup script:
 ```bash
 sudo nano /opt/ejbca/bin/extra/ejbca-setup.sh
 ```
+
+
 Modify the following values:
 ```bash
 # Server name (the URL you will use to access the PKI):
@@ -108,12 +116,20 @@ BASE_DN="O=I-Avenger Studio,C=IDN"
 ```
 *Note: Adjust the database name, password, base DN, and database host as needed.*
 
+![Change Value Database EJBCA](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/09e9bf172dc9d700be18e707e1cdca71424aed2c/change%20value%20database%20ejbca.webp?raw=true)
+
+
 After making changes, save the file and execute the setup script:
 ```bash
 cd /opt
 /opt/ejbca/bin/extra/ejbca-setup.sh
 ```
 The installation will begin. You will need to confirm by typing "YES" for 1 to 3 questions.
+
+![Start Installation](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/09e9bf172dc9d700be18e707e1cdca71424aed2c/start%20installtion.webp?raw=true)
+
+![Success Installation EJBCA](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/09e9bf172dc9d700be18e707e1cdca71424aed2c/succes%20instalation%20ejbca.webp?raw=true)
+
 
 If the installation is successful, you should see the following message at the end:
 ```bash
@@ -131,6 +147,9 @@ Then, import the `p12` file into Mozilla Firefox:
 2. Click **View Certificates** > **Import**.
 3. Select the `p12` file that was moved to your local directory.
 4. Enter the **superadmin.p12 password** from the installation log.
+
+![Termius](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/09e9bf172dc9d700be18e707e1cdca71424aed2c/termius.webp?raw=true)
+
 
 ## Accessing the EJBCA Web Interface
 To access the EJBCA web interface, enter your server's IP address in your browser.
