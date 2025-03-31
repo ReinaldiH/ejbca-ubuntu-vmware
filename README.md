@@ -24,17 +24,20 @@ To ensure a smooth installation process, follow these steps:
    ```bash
    sudo apt install openjdk-8-jdk
    ```
-
+![EJBCA Installation](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o0QYR7zspWAwU2nLZwv04w.png)
    
 4. **Install MariaDB server and client as the database engine for EJBCA**:
    ```bash
    sudo apt install mariadb-client
    sudo apt install mariadb-server
    ```
+![EJBCA Installation - Step 4](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Vrhtla3ksgbYx0JFJIpLqw.png)
+
    To check the MariaDB status:
    ```bash
    sudo systemctl status mariadb
    ```
+![EJBCA Installation - Step 5](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*4VFZM4oIpU3u-MtfM-pCmQ.png)
 
 ## Creating a Service Account
 For security reasons, it is recommended to run applications under a non-root user. You can create a user and set a password as follows:
@@ -42,6 +45,9 @@ For security reasons, it is recommended to run applications under a non-root use
 useradd reinaldi
 passwd reinaldi
 ```
+![EJBCA Installation - Step 6](https://miro.medium.com/v2/resize:fit:1400/format/webp/
+
+
 Deploy the PKI and its subsystems in the `/opt/` directory by modifying the new user's home directory and shell:
 ```bash
 usermod -d /opt reinaldi
