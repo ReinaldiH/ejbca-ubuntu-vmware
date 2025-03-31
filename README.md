@@ -136,9 +136,9 @@ If you see a security warning:
 
 If the installation was successful, the EJBCA dashboard should appear.
 
-EJBCA WEB.webp
+![EJBCA Web](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/1fc7f4ca2226d2364cc015f1d68d7e4603a71f70/EJBCA%20WEB.webp?raw=true)
 
-EJBCA WEB 2.webp
+![EJBCA Web 2](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/1fc7f4ca2226d2364cc015f1d68d7e4603a71f70/EJBCA%20WEB%202.webp?raw=true)
 
 ---
 
