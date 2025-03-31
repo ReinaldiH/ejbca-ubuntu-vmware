@@ -66,10 +66,16 @@ After installation, secure your database using MySQL configuration:
 sudo mysql_secure_installation
 ```
 
+![Sudo MySQL Install](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/ff1de418906875646ef5e8ca0b8e0d1ed63ce6ab/sudo%20mysql%20install.webp?raw=true)
+
+
 EJBCA requires a MySQL (MariaDB) database. To log in as the root user:
 ```bash
 mysql -u root -p
 ```
+
+![MySQL Root](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/ff1de418906875646ef5e8ca0b8e0d1ed63ce6ab/mysql%20root.webp?raw=true)
+
 
 Create a database, user, and password for EJBCA:
 ```sql
@@ -79,6 +85,11 @@ FLUSH PRIVILEGES;
 exit;
 ```
 *Note: Replace `my-password` with a secure password of your choice.*
+
+![Create Database](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/ff1de418906875646ef5e8ca0b8e0d1ed63ce6ab/create%20database.webp?raw=true)
+
+![Flush Privilege](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/ff1de418906875646ef5e8ca0b8e0d1ed63ce6ab/flush%20privelege.webp?raw=true)
+
 
 ## Download and Install EJBCA
 Next, download the EJBCA package:
