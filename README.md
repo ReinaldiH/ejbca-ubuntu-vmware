@@ -33,11 +33,14 @@ To ensure a smooth installation process, follow these steps:
    ```
 ![EJBCA Installation - Step 4](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Vrhtla3ksgbYx0JFJIpLqw.png)
 
+![MariaDB Server](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/69fa0d1a6ccf52941ba8cf0090add41b8f800e4b/maria%20db%20servcer.webp?raw=true)
 
    To check the MariaDB status:
    ```bash
    sudo systemctl status mariadb
    ```
+
+![Status MariaDB](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/69fa0d1a6ccf52941ba8cf0090add41b8f800e4b/status%20maria%20db.webp?raw=true)
 
 ## Creating a Service Account
 For security reasons, it is recommended to run applications under a non-root user. You can create a user and set a password as follows:
