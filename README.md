@@ -142,6 +142,9 @@ If the installation was successful, the EJBCA dashboard should appear.
 
 ---
 
+![EJBCA Installation - Step 12](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*-XLwyTahDau5JFc7TFyLew.png)
+
+
 This concludes the installation of EJBCA on Ubuntu Server 22.04 LTS using VMWare Fusion.
 
 
