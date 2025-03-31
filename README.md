@@ -33,14 +33,11 @@ To ensure a smooth installation process, follow these steps:
    ```
 ![EJBCA Installation - Step 4](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Vrhtla3ksgbYx0JFJIpLqw.png)
 
-![EJBCA Installation - Step 5](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*4VFZM4oIpU3u-MtfM-pCmQ.png)
-
 
    To check the MariaDB status:
    ```bash
    sudo systemctl status mariadb
    ```
-![EJBCA Installation - Step 6](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*ZkAPUXf1aU-DolFlzjr6jQ.png)
 
 ## Creating a Service Account
 For security reasons, it is recommended to run applications under a non-root user. You can create a user and set a password as follows:
@@ -58,21 +55,16 @@ chsh -s /bin/bash reinaldi
 exit
 ```
 
-![EJBCA Installation - Step 7](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*SAhnIszohcAOgr4IZh4VPA.png)
-
 ## Database Configuration
 After installation, secure your database using MySQL configuration:
 ```bash
 sudo mysql_secure_installation
 ```
 
-![EJBCA Installation - Step 8](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*8bfNyXgpMYb6tZKbpyS0QA.png)
-
 EJBCA requires a MySQL (MariaDB) database. To log in as the root user:
 ```bash
 mysql -u root -p
 ```
-![EJBCA Installation - Step 9](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*GqkJMQgifPp4glvas1eU5w.png)
 
 Create a database, user, and password for EJBCA:
 ```sql
@@ -82,11 +74,6 @@ FLUSH PRIVILEGES;
 exit;
 ```
 *Note: Replace `my-password` with a secure password of your choice.*
-
-![EJBCA Installation - Step 10](https://miro.medium.com/v2/resize:fit:1400/format/webp/1*aTBc-ScFc1r4ayb72drWqw.png)
-
-![EJBCA Installation - Step 11](https://miro.medium.com/v2/resize:fit:1184/format/webp/1*EQqoG-r2DfU-AUsNQaGGUQ.png)
-
 
 ## Download and Install EJBCA
 Next, download the EJBCA package:
