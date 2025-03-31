@@ -58,6 +58,8 @@ chsh -s /bin/bash reinaldi
 exit
 ```
 
+![User Account](https://github.com/ReinaldiH/ejbca-ubuntu-vmware/blob/17d766410ae69346648a59a047ea62d6724a384c/User%20Account.webp?raw=true)
+
 ## Database Configuration
 After installation, secure your database using MySQL configuration:
 ```bash
